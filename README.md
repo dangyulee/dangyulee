@@ -37,7 +37,7 @@
   <tr>
     <td>
       <a href="https://solved.ac/dessert99">
-        <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=dessert99" alt="Solved.ac Profile" />
+        <img src="" />
       </a>
     </td>
   </tr>
