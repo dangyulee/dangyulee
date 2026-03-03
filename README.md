@@ -59,6 +59,18 @@
 
 ---
 
+### 📚 멋사 2학기 프로젝트 — 성장형 스터디 앱
+> `2025.09 ~ 2026.01` | [GitHub](https://github.com/StudyMeotsa)
+
+**학습 기록·보상형 그룹 스터디 플랫폼**
+
+`Spring Boot` `MySQL`
+
+- 정규화 기반 DB 설계 및 도메인 모델링
+- Controller → Service → Repository → Domain 계층 역할 분리
+
+---
+
 ## 📬 Contact
 
 [![Gmail](https://img.shields.io/badge/dg200101@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:dg200101@gmail.com)
