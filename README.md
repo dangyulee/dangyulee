@@ -51,7 +51,7 @@
 `Django` `LangChain` `LangGraph` `MCP` `PostgreSQL`
 
 - 국민건강보험 공공데이터 기반으로 진료비·처방일수·약물 투약량을 통계와 비교해 시각화
-- **MCP 기반 Tool-Using AI Agent** 구현 — PubMed, FDA, ClinicalTrials 등 외부 의료 데이터를 LLM이 실시간 조회
+- **MCP 기반 Tool-Using AI Agent** 구현 — PubMed, FDA 등 외부 의료 데이터를 MCP를 통해 LLM이 실시간 조회
 - LangGraph로 질병 → 약물 → 건강관리 → 요약 단계를 노드로 분리한 LLM 파이프라인 구성
 - EC2 내 Django 서버와 MCP 서버를 각각 분리하여 통신 구조 설계
 - **GANZITHON 해커톤 대상 수상 🏆**
