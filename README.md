@@ -20,10 +20,6 @@
 ![LangGraph](https://img.shields.io/badge/LangGraph-4A90D9?style=flat)
 ![SQLD](https://img.shields.io/badge/SQL%20%26%20Data%20Modeling-003B57?style=flat&logo=postgresql&logoColor=white)
 
-**DevOps & Infra**  
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-
 ---
 
 ## 🚀 Projects
