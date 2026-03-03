@@ -12,8 +12,6 @@
 **Backend**  
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20API-005571?style=flat)
-![JPA](https://img.shields.io/badge/JPA%2FORM-59666C?style=flat)
 
 **AI & Data**  
 ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat&logo=chainlink&logoColor=white)
