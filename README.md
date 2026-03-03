@@ -55,3 +55,7 @@
 - **GANZITHON 해커톤 대상 수상 🏆**
 
 ---
+
+## 🚀 Contact
+
+[![Gmail](https://img.shields.io/badge/dg200101@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:dg200101@gmail.com)
