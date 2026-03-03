@@ -15,8 +15,7 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 
-**AI & Data**
-![RAG](https://img.shields.io/badge/RAG-FF6F00?style=flat)
+**AI & Data**  
 ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat&logo=chainlink&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-4A90D9?style=flat)
 ![SQLD](https://img.shields.io/badge/SQL%20%26%20Data%20Modeling-003B57?style=flat&logo=postgresql&logoColor=white)
