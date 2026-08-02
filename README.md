@@ -33,9 +33,9 @@
 
 ## Knock
 
+https://play.google.com/store/apps/details?id=com.knock.knocknock
 - 기간: 2026.02 ~ 2026.05 (3개월)
 - 소개: **현직자 멘토링 커리어 플랫폼**
-https://play.google.com/store/apps/details?id=com.knock.knocknock
 - 팀 구성: 9명(기획 1, 디자인 1, 프론트 3, 백엔드 4)
 - 기술: `Spring Boot 3.5.3` `Java 21` `JPA` `QueryDSL` `MySQL` `DynamoDB`
 - 아키텍처: `Hexagonal Architecture` | `Client` → `Lambda (BFF)` → `Spring boot (ORM)`
