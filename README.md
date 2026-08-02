@@ -4,8 +4,6 @@
 > - 멋쟁이사자처럼(13기) 수료('25.03~'26.01)
 > - 멋쟁이사자처럼(14기) 운영진('26.02~)
 > - BDAI 운영진(8기) 개발팀('26.02~)
->   
-[![Gmail](https://img.shields.io/badge/dg200101@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:dg200101@gmail.com)
 
 ---
 
@@ -77,3 +75,6 @@ https://github.com/campus-local-app
     - 비용 절감을 위한 개발용 로컬 서버 구축 및 CICD 설계
     - 코드 리팩토링 및 컨벤션 정리
     - 테스트 코드 작성
+ 
+---
+[![Gmail](https://img.shields.io/badge/dg200101@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:dg200101@gmail.com)
