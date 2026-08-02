@@ -1,78 +1,79 @@
 # 이단규
-[사진]
+
 > - 한국외대 재학 중('21.03~)
 > - 멋쟁이사자처럼(13기) 수료('25.03~'26.01)
 > - 멋쟁이사자처럼(14기) 운영진('26.02~)
-> - BDAI 운영진(8기) 개발팀('26.03~)
+> - BDAI 운영진(8기) 개발팀('26.02~)
+>   
+[![Gmail](https://img.shields.io/badge/dg200101@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:dg200101@gmail.com)
 
 ---
 
 ## 🛠 Tech Stack
 
-**Languages**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
+**Languages**
 
-**Frameworks**  
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
+`Python` `JAVA` `Kotlin`
 
-**Database**  
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+**Frameworks**
 
----
+`Django` `Spring Boot`
 
-## 📜 Certifications
+**Database**
 
-- SQLD('25.09.19)
+`MySQL` `Redis`
+
+**DevOps**
+
+`Terraform`
 
 ---
 
 ## 🚀 Projects
 
-### 🏆 멋쟁이사자처럼 중앙해커톤(13기) — 청년 자립 지원 서비스
-> `2025.07 ~ 08` | [GitHub](https://github.com/likelionTeam111)
+## Knock
 
-**Embedding과 RAG 기반으로 청년 정책을 개인화 추천하는 AI 정책 비서**
+- 기간: 2026.02 ~ 2026.05 (3개월)
+- 소개: **현직자 멘토링 커리어 플랫폼**
+https://play.google.com/store/apps/details?id=com.knock.knocknock
+- 팀 구성: 9명(기획 1, 디자인 1, 프론트 3, 백엔드 4)
+- 기술: `Spring Boot 3.5.3` `Java 21` `JPA` `QueryDSL` `MySQL` `DynamoDB`
+- 아키텍처: `Hexagonal Architecture` | `Client` → `Lambda (BFF)` → `Spring boot (ORM)`
+- 담당:
+    - 백엔드
+    - Spring Boot ORM 계층 담당
+    - Sprint1: 멘토 인증/전환 기능
+    - Sprint2: Admin page
+ 
+## BDAI-PICK
 
-`Django` `LangChain` `LangGraph` `PostgreSQL` `AWS EC2/RDS`
+- 기간: 2026.06 ~ 2026.07 (4주)
+- 소개: **BDAI 학회원 - 가게 제휴 서비스**
+- 팀 구성: 6명(디자인 1, 프론트 2, 백엔드 3)
+- 기술: `Spring Boot 3.5.14` `Kotlin 2.3.21` `JPA` `MySQL` `Terraform`
+- 아키텍처: `Hexagonal Architecture` | `Muti-module`
+- 담당:
+    - 기획 및 백엔드
+    - Member 모듈 담당
+    - 인프라 수정 및 버그 픽스
+    - AI 기반 오류 대응 체제 구축
+        - CloudWatch → SNS → SQS → Claude Code → Slack
 
-- 온통청년 Open API 기반 정책 데이터 수집 및 Embedding 벡터 변환 후 Vector DB 저장
-- LangChain·LangGraph 기반 **RAG** 구조 설계 및 구현으로 공식 문서 근거형 **챗봇** 구현
-- 수백 개의 청년 정책을 키워드가 아닌 **의미 기반으로 검색·추천**
-- AWS EC2 및 RDS 환경에 백엔드 서비스 배포
-- **멋쟁이사자처럼 중앙해커톤 1차 심사 통과 (상위 16%)**
+## 대학생보호구역(DBGzone)
 
----
+https://github.com/campus-local-app
 
-### 🥇 GANZITHON — 과잉ZERO
-> `2025.10 ~ 11` | [GitHub](https://github.com/GanziThon-Team3)
-
-**공공 의료 데이터 + LLM 기반 과잉진료 팩트체크 서비스**
-
-`Django` `LangChain` `LangGraph` `MCP` `PostgreSQL`
-
-- 국민건강보험 공공데이터 기반으로 진료비·처방일수·약물 투약량을 통계와 비교해 시각화
-- **MCP 기반 Tool-Using AI Agent** 구현 — PubMed, FDA 등 외부 의료 데이터를 MCP를 통해 LLM이 실시간 조회
-- LangGraph로 질병 → 약물 → 건강관리 → 요약 단계를 노드로 분리한 LLM 파이프라인 구성
-- EC2 내 Django 서버와 MCP 서버를 각각 분리하여 통신 구조 설계
-- **GANZITHON 해커톤 대상 수상 🏆**
-
----
-
-### 📚 멋사 2학기 프로젝트 — 성장형 스터디 웹
-> `2025.09 ~ 2026.01` | [GitHub](https://github.com/StudyMeotsa)
-
-**학습 기록·보상형 그룹 스터디 플랫폼**
-
-`Spring Boot` `MySQL`
-
-- 정규화 기반 DB 설계 및 도메인 모델링
-- Controller → Service → Repository → Domain 계층 역할 분리
-
----
-
-## 📬 Contact
-
-[![Gmail](https://img.shields.io/badge/dg200101@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:dg200101@gmail.com)
+- 기간: 2026.05 ~ 2026.07 (2개월)
+- 소개: **학생회 제휴 활성화를 통한 가게 홍보 효율 극대화**
+- 팀 구성: 7명(기획 1, 디자인 1, 프론트 2, 백엔드 3)
+- 기술: `Spring Boot 3.5.11` `Java 21` `JPA` `MySQL` `Redis`
+- 아키텍처: `Layered Architecture`
+- 담당:
+    - 대표 겸 서비스 기획, 백엔드
+    - 유저 인터뷰 및 시장 조사
+    - 학생회 및 가게 섭외
+    - 스프린트 별 기획 문서 작성
+    - QA
+    - 비용 절감을 위한 개발용 로컬 서버 구축 및 CICD 설계
+    - 코드 리팩토링 및 컨벤션 정리
+    - 테스트 코드 작성
