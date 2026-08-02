@@ -36,7 +36,7 @@
 https://play.google.com/store/apps/details?id=com.knock.knocknock
 - 기간: 2026.02 ~ 2026.05 (3개월)
 - 소개: **현직자 멘토링 커리어 플랫폼**
-- 팀 구성: 9명(기획 1, 디자인 1, 프론트 3, 백엔드 4)
+- 팀 구성: 9명(기획 1, 디자인 1, 프론트엔드 3, 백엔드 4)
 - 기술: `Spring Boot 3.5.3` `Java 21` `JPA` `QueryDSL` `MySQL` `DynamoDB`
 - 아키텍처: `Hexagonal Architecture` | `Client` → `Lambda (BFF)` → `Spring boot (ORM)`
 - 담당:
@@ -49,7 +49,7 @@ https://play.google.com/store/apps/details?id=com.knock.knocknock
 
 - 기간: 2026.06 ~ 2026.07 (4주)
 - 소개: **BDAI 학회원 - 가게 제휴 서비스**
-- 팀 구성: 6명(디자인 1, 프론트 2, 백엔드 3)
+- 팀 구성: 6명(디자인 1, 프론트엔드 2, 백엔드 3)
 - 기술: `Spring Boot 3.5.14` `Kotlin 2.3.21` `JPA` `MySQL` `Terraform`
 - 아키텍처: `Hexagonal Architecture` | `Muti-module`
 - 담당:
@@ -65,7 +65,7 @@ https://github.com/campus-local-app
 
 - 기간: 2026.05 ~ 2026.07 (2개월)
 - 소개: **학생회 제휴 활성화를 통한 가게 홍보 효율 극대화**
-- 팀 구성: 7명(기획 1, 디자인 1, 프론트 2, 백엔드 3)
+- 팀 구성: 7명(기획 1, 디자인 1, 프론트엔드 2, 백엔드 3)
 - 기술: `Spring Boot 3.5.11` `Java 21` `JPA` `MySQL` `Redis`
 - 아키텍처: `Layered Architecture`
 - 담당:
