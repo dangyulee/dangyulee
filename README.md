@@ -23,7 +23,7 @@
 
 **DevOps**
 
-`Terraform`
+`AWS` `Terraform`
 
 ---
 
