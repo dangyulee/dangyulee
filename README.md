@@ -41,7 +41,6 @@ https://play.google.com/store/apps/details?id=com.knock.knocknock
     - 백엔드
     - Spring Boot ORM 계층 담당
     - Sprint1: 멘토 인증/전환 기능
-    - Sprint2: Admin page
  
 ## BDAI-PICK
 
