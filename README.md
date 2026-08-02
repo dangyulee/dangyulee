@@ -54,7 +54,6 @@ https://play.google.com/store/apps/details?id=com.knock.knocknock
     - Member 모듈 담당
         - 제휴 리스트 노출
         - QueryDSL, 페이지네이션 적용   
-    - 인프라 수정 및 버그 픽스
     - AI 기반 오류 대응 체제 구축
         - CloudWatch → SNS → SQS → Claude Code → Slack
 
