@@ -62,7 +62,7 @@ https://play.google.com/store/apps/details?id=com.knock.knocknock
 https://github.com/campus-local-app
 
 - 기간: 2026.05 ~ 2026.07 (2개월)
-- 소개: **학생회 제휴 활성화를 통한 가게 홍보 효율 극대화**
+- 소개: **학생회 제휴 활성화를 통한 대학 상권 가게 홍보 효율 극대화**
 - 팀 구성: 7명(기획 1, 디자인 1, 프론트엔드 2, 백엔드 3)
 - 기술: `Spring Boot 3.5.11` `Java 21` `JPA` `MySQL` `Redis`
 - 아키텍처: `Layered Architecture`
