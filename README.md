@@ -29,20 +29,25 @@
 
 ## 🚀 Projects
 
-## Knock
+### PETFORM
+https://github.com/dangyulee/petform
 
-https://play.google.com/store/apps/details?id=com.knock.knocknock
-- 기간: 2026.02 ~ 2026.04 (2개월)
-- 소개: **현직자 멘토링 커리어 플랫폼**
-- 팀 구성: 9명(기획 1, 디자인 1, 프론트엔드 3, 백엔드 4)
-- 기술: `Spring Boot 3.5.3` `Java 21` `JPA` `QueryDSL` `MySQL` `DynamoDB`
-- 아키텍처: `Hexagonal Architecture` | `Client` → `Lambda (BFF)` → `Spring boot (ORM)`
+- 기간: 2026.07 ~ 2026.08 (1개월)
+- 소개: 반려동물 사진 한 장으로 3D 피규어 모델(STL) 생성부터 프린트샵 견적 비교까지 잇는 AI 3D 프린팅 서비스
+- 성과: 멋쟁이사자처럼 대학 14기 중앙해커톤 입상 (상위 20%)
+- 팀 구성: 5명(기획 1, 디자인 1, 프론트엔드 2, 백엔드 1)
+- 기술: `Spring Boot 3.5.16` `Kotlin 2.2.0` `Java 21` `JPA` `MySQL` `AWS S3` `SQS FIFO` `CloudFront` `Docker` `GitHub Actions`
+- 아키텍처: `Client` → `Spring Boot` → `SQS FIFO` → `AI 서버` → `S3 / CloudFront` → `Callback`
 - 담당:
-    - 백엔드
-    - Spring Boot ORM 계층 담당
-    - Sprint1: 멘토 인증/전환 기능
+   - 백엔드 & AI
+   - SQS FIFO 기반 3D 모델 생성 비동기 잡 파이프라인 설계 (GPU 1대 환경에서 순차 처리 보장, jobId 중복 제거)
+   - Presigned URL 업로드 · CloudFront 조회로 파일 트래픽을 애플리케이션 서버에서 분리
+- 트러블슈팅:
+[부스 운영 데이터와 외부 API 호출 실패](https://velog.io/@kikoky/비동기-처리와-부스-운영-데이터)
+   - 이미지 변환 API 502 67건 → JPEG 세그먼트를 분석해, iOS HDR 사진의 게인맵(APP2)이 원인임을 규명 -> 클라이언트 재인코딩으로 해결 검증
+   - 피크 시 대기 최대 15분 → 운영 로그로 도착률·처리율(이용률 81%, 피크 123%)을 분석해 병목을 수치화 -> 큐 대기 순번·예상 시간 노출 방안 설계
  
-## BDAI-PICK
+### BDAI-PICK
 
 - 기간: 2026.06 ~ 2026.07 (4주)
 - 소개: **BDAI 학회원 - 가게 제휴 서비스**
@@ -57,7 +62,7 @@ https://play.google.com/store/apps/details?id=com.knock.knocknock
     - AI 기반 오류 대응 체제 구축
         - CloudWatch → SNS → SQS → Claude Code → Slack
 
-## 대학생보호구역(DBGzone)
+### 대학생보호구역(DBGzone)
 
 https://github.com/campus-local-app
 
