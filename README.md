@@ -37,16 +37,27 @@ https://github.com/dangyulee/petform
 - 성과: 멋쟁이사자처럼 대학 14기 중앙해커톤 입상 (상위 20%)
 - 팀 구성: 5명(기획 1, 디자인 1, 프론트엔드 2, 백엔드 1)
 - 기술: `Spring Boot 3.5.16` `Kotlin 2.2.0` `Java 21` `JPA` `MySQL` `AWS S3` `SQS FIFO` `CloudFront` `Docker` `GitHub Actions`
-- 아키텍처: `Client` → `Spring Boot` → `SQS FIFO` → `AI 서버` → `S3 / CloudFront` → `Callback`
+- 아키텍처: `Client` → `Spring Boot` → `SQS FIFO` → `AI 서버 (RTX 4060)` → `S3 / CloudFront` → `Callback`
+   <details>
+   <summary>아키텍처 다이어그램</summary>
+
+   <img src="https://raw.githubusercontent.com/dangyulee/petform/main/docs/architecture.png" width="700">
+   </details>
 - 담당:
-   - 백엔드 & AI
-   - SQS FIFO 기반 3D 모델 생성 비동기 잡 파이프라인 설계 (GPU 1대 환경에서 순차 처리 보장, jobId 중복 제거)
-   - Presigned URL 업로드 · CloudFront 조회로 파일 트래픽을 애플리케이션 서버에서 분리
-- 트러블슈팅:
-[부스 운영 데이터와 외부 API 호출 실패](https://velog.io/@kikoky/비동기-처리와-부스-운영-데이터)
+   - 백엔드·AI 서버 단독 개발 (API 설계 · 데이터 모델링 · 인프라 · 배포)
+   - **백엔드**
+      - Creation 중심 계층형 REST API 설계
+      - 생성 작업(Creation)과 3D 생성 시도(Job)를 1:N으로 분리 설계해 실패·재시도 이력 보존
+      - SQS FIFO 기반 3D 모델 생성 비동기 잡 파이프라인 설계 (GPU 1대 환경에서 순차 처리 보장, jobId 중복 제거)
+      - Presigned URL 업로드 · CloudFront 조회로 파일 트래픽을 애플리케이션 서버에서 분리
+   - **AI 서버**
+      - 로컬 GPU(RTX 4060, VRAM 8GB) 환경에서 TripoSG 기반 image → 3D(STL) 생성 워커 구축
+      - SQS long polling으로 작업 소비 후 S3 업로드 · 백엔드 콜백
+- **트러블슈팅**
+   - [부스 운영 데이터와 외부 API 호출 실패](https://velog.io/@kikoky/비동기-처리와-부스-운영-데이터)
    - 이미지 변환 API 502 67건 → JPEG 세그먼트를 분석해, iOS HDR 사진의 게인맵(APP2)이 원인임을 규명 -> 클라이언트 재인코딩으로 해결 검증
-   - 피크 시 대기 최대 15분 → 운영 로그로 도착률·처리율(이용률 81%, 피크 123%)을 분석해 병목을 수치화 -> 큐 대기 순번·예상 시간 노출 방안 설계
- 
+   - 피크 시 대기 최대 15분 → 운영 로그로 도착률·처리율(이용률 81%, 피크 123%)을 분석해 병목을 수치화 -> 큐 대기 순번·예상 시간 노출
+      
 ### BDAI-PICK
 
 - 기간: 2026.06 ~ 2026.07 (4주)
