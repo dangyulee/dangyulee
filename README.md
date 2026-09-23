@@ -41,7 +41,7 @@ https://github.com/dangyulee/petform
 - 소개: 반려동물 사진 한 장으로 3D 피규어 모델(STL) 생성부터 프린트샵 견적 비교까지 잇는 AI 3D 프린팅 서비스
 - 성과: 멋쟁이사자처럼 대학 14기 중앙해커톤 입상 (상위 20%)
 - 팀 구성: 5명(기획 1, 디자인 1, 프론트엔드 2, 백엔드 1)
-- 기술: `Spring Boot 3.5.16` `Kotlin 2.2.0` `Java 21` `JPA` `MySQL` `AWS S3` `SQS FIFO` `CloudFront` `Docker` `GitHub Actions`
+- 기술: `Spring Boot 3.5.16` `Kotlin 2.2.0` `Java 21` `JPA` `MySQL` `S3` `CloudFront` `SQS`
 - 아키텍처: `Client` → `Spring Boot` → `SQS FIFO` → `AI 서버 (RTX 4060)` → `S3 / CloudFront` → `Callback`
    <details>
    <summary>아키텍처 다이어그램</summary>
